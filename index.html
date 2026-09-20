@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Shots_by Prehna</title>
+
+    <link href="./img/logo.PNG" rel="shortcut icon" />
+    
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <a class="visually-hidden skip" href="main">Skip to main content</a>
+    <header class="navbar">
+        <div class="nav__container">
+
+            <img class="logo" src="./img/logo.PNG" width="60" height="40" alt="logo">
+            <h3 class="logo__text"><span> Shots_by </span> Prehna</h3>
+
+
+            <nav id="navLinks" class="nav__links">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+
+                <a href="#book-now" class="btn">Book now</a>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+
+        <!-- Hero Section -->
+        
+        <section class="hero" id="home">
+            <div class="hero__content">
+                <h1 class="fade__in">Capturing Memories, <br> One Frame At A Time.</h1>
+                <p class="fade__in">Creating content that feels good, capturing real emotions-for brands, <br> couples, and creators who want more than just a video...</p>
+
+                <div class="hero__btns fade__in">
+                    <a href="#book-now" class="hero__primary__btn">Book now</a>
+                    <a href="https://www.instagram.com/reel/DYSj937sAK-?stkn=MTh4endpMnB0ZHZjag==" class="hero__secondary__btn" target="_blank">Watch reel</a>
+                </div>
+                <p class="travel__badge">Available for travel</p>
+            </div>
+
+            <div class="hero__vid__wrapper">
+                <video class="hero__vid" id="heroVideo" autoplay muted loop playsinline controls>
+                    <source src="./vid/showreel.MP4" type="video/mp4">
+                    Your browser does not support video
+                </video> 
+            </div>
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about reveal" id="about">
+            <div class="about__content">
+                <h2>About me</h2>
+                <p>
+                    I'm <span class="name">Prehna</span> a content creator. <br> Based in Port Harcourt, Nigeria and <span class="travel__badge">available for travel</span> across Nigeria and beyond, <br> I help brands, couples and creators turn real moments into unforgettable memories.
+                </p>
+
+                <p>
+                    I've shot weddings, reels, birthday shoots, event highlight, brand commercials and corporate events. <br> My goal is simple: capture emotion, not just footage. Every frame should make you feel something.
+                </p>
+
+                <p>
+                    I'm a registered business with the <strong>Corporate Affairs Commission (CAC)</strong>, <br>so you can work with me with full confidence and professionalism
+                </p>
+                <div class="about__cta">
+                    <a href="#book-now" class="btn">Let's Work Together</a>
+                </div>
+            </div>
+            
+            <div class="about__img">
+                <img src="./img/portfolio.png" alt="content creator behind the camera" class="about__pic">
+
+                <!-- CAC Certificate-->
+
+                <div class="cac__badge">
+                    <p>RC: 9007130</p>
+                    <img src="./img/CAC.png" alt="CAC Certificate" class="cac__pic">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Card Section -->
+
+        <section class="services reveal" id="services">
+            <div class="services__header">
+                <h2>What I Shoot</h2>
+                <p>Cinematic video for brands, people, and moments. <span class="travel__badge"> Available for travel </span></p>
+            </div>
+
+            <div class="services__grid">
+                <!-- card 1 -->
+                <div class="service__card">
+                    <h3>Proposal & Weddings</h3>
+                    <p>Emotional, clean cinematic proposal, pre-wedding, and wedding contents that capture your engagements, vows, tears, and dance floor energy</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+
+                <!-- card 2 -->
+                <div class="service__card">
+                    <h3>Brand & Commercials</h3>
+                    <p>High converting video ads, product videos, and brand stories that make people stop scrolling.</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+
+                <!-- card 3 -->
+                <div class="service__card">
+                    <h3>Birthday Bash</h3>
+                    <p>capturing the joy, celebration, and confetti that makes your birthday unforgettable</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+
+                <!-- card 4 -->
+                <div class="service__card">
+                    <h3>Corporate Events</h3>
+                    <p>conferences, launches, and highlights. Professional coverage that makes your brand look premium.</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+
+                <!-- card 5 -->
+                <div class="service__card">
+                    <h3>Event Decor & Highlights</h3>
+                    <p>Ambient highlight that preserve the mood, beauty and grandeur of your event, making your decor come alive.</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+
+                <!-- card 6 -->
+                <div class="service__card">
+                    <h3>Content for Creators</h3>
+                    <p>Reels, Tiktoks, YouTube. Short form content shot and edited to grow your audience.</p>
+                    <a href="#book-now" class="service__btn">Book now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section-->
+
+        <section class="how__it__works reveal">
+            <div class="hiw__header">
+                <h2 class="visually-hidden">How It Works</h2>
+                <p>A simple 3-step process to bring your vision to life</p>
+            </div>
+
+            <div class="hiw__grid">
+                <!-- step 1 -->
+                <div class="hiw__step">
+                    <div class="step__icon">
+                        <i class="fa-solid fa-clipboard"></i> 
+                    </div>
+                    <h3>Planning</h3>
+                    <p>We start a call to understand your goals, style, and story. I'll handle the shot list, timeline so you don't have to stress.</p>
+                </div>
+
+                <!-- step 2 -->
+                <div class="hiw__step">
+                    <div class="step__icon">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <h3>Production Day</h3>
+                    <p>I show up with gear. Professional, calm, and efficient. We capture cinematic footage while you focus on what matters, your people and your message.</p>
+                </div>
+
+                <!-- step 3 -->
+                <div class="hiw__step">
+                    <div class="step__icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Editing & Delivery</h3>
+                    <p>I edit your film with color grading, sound design, and music. You get your revisions and delivery within 48 hours.</p>
+                </div>
+            </div>
+
+            <div class="hiw__cta">
+                <a href="#book-now" class="hiw__btn">Let's Start Your Project</a>
+                <p class="travel__badge">Available for travel</p>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+
+        <section class="booking" id="book-now">
+            <div class="booking__header">
+                <h2 class="visually-hidden">Book Your Shoot</h2>
+                <p>Let's create something cinematic together. <span class="travel__badge">Available for travel</span></p>
+            </div>
+
+            <form class="booking__form" id="bookingForm" action="#book-now">
+                <div class="form__grid">
+                    <!-- Shoot type-->
+                    <div class="form__group">
+                        <label for="shoot_type">Which Shoot?</label>
+                        <select name="shoot_type" id="shoot_type" required>
+                            <option value="">Select a service</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="brand">Brand & Commercials</option>
+                            <option value="burial">Burial</option>
+                            <option value="creator">Content for Creators</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="decor">Decoration</option>
+                            <option value="dedication">Dedications</option>
+                            <option value="event">Event Highlight</option>
+                            <option value="proposal">Proposal</option>
+                            <option value="wedding">Pre-weddind & Wedding</option>
+                        </select>
+                    </div>
+
+                    <!-- Package -->
+                    <div class="form__group">
+                        <label for="package">Choose Package</label>
+                        <select name="package" id="package" required>
+                            <option value="">Select a package</option>
+                            <option value="basic">Basic,  1hr 1 video</option>
+                            <option value="standard">Standard, 3hrs 2 videos</option>
+                            <option value="premium">Premium, 8hrs 7 videos</option>
+                            <option value="deluxe">Deluxe, 10hrs 9 videos</option>
+                            <option value="custom">Custom Package</option>
+                        </select>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="form__group">
+                        <label for="date">Shoot Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <!-- Location-->
+                    <div class="form__group">
+                        <label for="location">Shoot Locatiobn</label>
+                        <input type="text" id="location" name="location" placeholder="City, State or Country" required>
+                    </div>
+
+                    <!-- Name-->
+                    <div class="form__group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Jane Edward" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form__group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
+                    </div>
+                </div>
+
+                <!-- Message-->
+                 <div class="form__group full__width">
+                    <label for="message">Tell me about your Project</label>
+                    <textarea name="mesage" id="message" rows="5" placeholder="What's the vibe, story or details I should know?..."></textarea>
+                </div>
+
+                <button type="submit" class="booking__btn">Send Booking Request</button>
+                <div></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+
+            <!--footer brand-->
+            <div class="footer__col footer__brand">
+                <img class="footer__logo" src="./img/logo.PNG" width="60" height="40" alt="logo">
+                <h3 class="footer__logo__text"><span> Shots_by </span> Prehna</h3>
+                <p>turning your moments into unforgettable times</p>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/shots_byprehna" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@shots_byprehna" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://wa.me/+23408100412138" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick links-->
+            <div class="footer__col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- services -->
+            <div class="footer__col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">proposals & wedding</a></li>
+                    <li><a href="#services">Brand & Commercials</a></li>
+                    <li><a href="#services">Birthday Bash</a></li>
+                    <li><a href="#services">Corporate Events</a></li>
+                    <li><a href="#services">event Decor & highlights</a></li>
+                    <li><a href="#services">Content for Creators</a></li>
+                </ul>
+            </div>
+
+            <!-- contact -->
+            <div class="footer__col" id="contact">
+                <h4>Get In Touch</h4>
+                <ul class="footer__contact">
+                    <li><i class="fa-solid fa-location-dot"></i>Port Harcourt, Nigeria</li>
+                    <li><i class="fa-solid fa-phone"></i>+234 9061558820</li>
+                    <li><i class="fa-solid fa-envelope"></i>Port Harcourt, Nigeria</li>
+                </ul>
+                <a href="https://wa.me/2349061558820?text=Hi%2C%20I%27d%20like%20to%20book%20a%20call." target="_blank" class="footer__btn">Book a Call</a>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy <span id="year"></span> <span> Shots_by</span> Prehna. All Rights Reserved.</p>
+            <button id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </footer>
+ <script src="./script.js"></script>
+</body>
+</html>
